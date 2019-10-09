@@ -1,0 +1,57 @@
+p {
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+#paragraph {
+    background-color: rgb(44, 47, 131);
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline overline;
+    font-family: "Futura", sans-serif;
+}
+
+.special-style {
+    background-color: coral;
+}
+
+ol {
+    list-style: lower-greek;
+}
+
+ul {
+    list-style: circle;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+}
+
+a:hover {
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 10px;
+}
